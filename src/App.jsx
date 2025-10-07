@@ -8,6 +8,7 @@ function App() {
         <h2>Why work with us?</h2>
         <Accordion className="accordion">
           <AccordionItem
+            id="experience"
             className="accordion-item"
             title="We got 20 years of experience"
           >
@@ -20,7 +21,8 @@ function App() {
             </article>
           </AccordionItem>
           <AccordionItem
-            className="accordion"
+            id="local-guides"
+            className="accordion-item"
             title="We're working with local guides"
           >
             <article>
@@ -34,7 +36,7 @@ function App() {
         </Accordion>
       </section>
     </main>
-  );
+  )
 }
 
 export default App;
